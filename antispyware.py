@@ -85,8 +85,9 @@ def search_spyware_registry_paths():
             output = subprocess.check_output(["reg", "query", path]).decode("utf-8")
         except subprocess.CalledProcessError as e:
             print(f"Ocurrió un error al ejecutar el comando: {e}")
-            if output:
-                print("Se encontró una ruta de registro de spyware: " + path)
+            
+        if output:
+            print("Se encontró una ruta de registro de spyware: " + path)
 
 # Ejecuta las funciones de detección de spyware
 search_spyware_files()
