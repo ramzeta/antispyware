@@ -1,10 +1,13 @@
-"# antispyware" 
 
-Este script de python analiza las posibles insecciones de codigo malicioso en tu sistema 
+# 🛡️ Antispyware
 
-Esta incompleto y falta todavia ver si estan firmados y con las fechas correspondientes por los creadores de los ficheros ect ect....
+Este script en Python analiza posibles infecciones de código malicioso en tu sistema, detectando archivos sospechosos y evaluando su integridad.
 
-Todos podeis aportar cualquier cosa !!!! 
+🚧 **Estado del proyecto:** En desarrollo. Aún falta verificar la firma y la fecha de creación de los archivos para validar su autenticidad.
+
+## 📌 Contribuciones
+¡Cualquier aporte es bienvenido! Si tienes ideas, mejoras o encuentras errores, no dudes en colaborar.
+
+🙏 ¡Gracias por tu apoyo!
 
 
-Gracias!
